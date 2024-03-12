@@ -6,7 +6,9 @@ const Projects = () => {
   <div>
       <div>
         <h2> Escape From Tenochtitlan</h2>
-          <h3>About....</h3>
+          <p>Description here </p>
+          <a href="https://escape-from-tenochtitlan.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/Kevelaz/Escape-from-Tenochtitlan" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
       </div>
       <div>
         <h2>Football Centre</h2>

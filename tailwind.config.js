@@ -13,6 +13,7 @@ export default {
       },
       colors: {
         'custom-EFT': '#8B1B00',
+        'gold': '#FFD700'
       }
     },
   },

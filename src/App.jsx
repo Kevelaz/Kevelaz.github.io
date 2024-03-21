@@ -3,6 +3,7 @@ import HomeScreen from './components/HomeScreen/HomeScreen'
 import NavBar from './components/NavBar/NavBar'
 import AboutMePage from './components/AboutMe/AboutMe'
 import ProjectsPage from './components/ProjectsPage/ProjectsPage'
+import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
 import './App.css'
 
 const AppWrapper = () => {
@@ -19,6 +20,7 @@ function App() {
   const showNavBar = location.pathname !== '/';
   return (
     <>
+      <BackgroundVideo />
       {showNavBar && <NavBar />}
       <Routes>
         <Route path="/" element={<HomeScreen />} />

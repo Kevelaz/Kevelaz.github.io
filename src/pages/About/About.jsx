@@ -12,12 +12,24 @@ const About = () => {
           </h1>
       {/* <img src="src/assets/img/IMG_3384 2.jpg" alt="Kevin Velazquez" className="rounded-full     w-96 h-96 object-cover object-center ml-36 scale-100" /> */} 
         </div>
-        <div className="relative z-10 text-slate-100 text-2xl ml-32">
+        <div className="relative z-10 text-slate-100 text-2xl ml-32 mt-20">
             <h1> Don Jon Marine Co.</h1>
             <img src="src/assets/img/don-jon-logo-removebg-preview.png" alt="don jon" className="md:w-1/6 "/>
               <li> 2018-2023 </li>
               <li> Recycling Industry </li>
               <li> Machine Operator </li>
+
+            <h1> General Assembly </h1>
+            <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className="md:w-1/6"/>
+              <li> 2023-2024 </li>
+              <li> Education Inudstry</li>
+              <li> Fellow </li>
+            
+            <h1> Baja Mobile Mechanic </h1>
+            <img  src="src/assets/img/new logo.png" alt="BMM" className="md:w-1/4"/>
+              <li> 2024 </li>
+              <li> Automative Inudstry</li>
+              <li> Web Developer </li>
         </div>
     </>
   )

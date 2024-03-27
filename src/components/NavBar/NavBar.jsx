@@ -34,9 +34,9 @@ const NavBar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-10 w-auto"
+                    className="h-12 w-auto"
                     src="src/assets/img/logo-for-port.png"
-                    alt="Your Company"
+                    alt="Your logo"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">

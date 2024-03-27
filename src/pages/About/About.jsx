@@ -12,31 +12,35 @@ const About = () => {
           </h1>
       {/* <img src="src/assets/img/IMG_3384 2.jpg" alt="Kevin Velazquez" className="rounded-full     w-96 h-96 object-cover object-center ml-36 scale-100" /> */} 
         </div>
-        <div className="relative z-10 text-slate-100 text-2xl ml-32 mt-20">
-          <div className="flex">
-            <img src="src/assets/img/don-jon-logo-removebg-preview.png" alt="don jon" className="md:w-1/6 "/>
-            <h1> Don Jon Marine Co.</h1>
-              <h3> 2018-2023 </h3>
-              <h3> Recycling Industry </h3>
-              <h3> Machine Operator </h3>
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0   md:space-x-4 p-6 rounded-lg shadow-md">
+              <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className=" ml-24 md:w-1/6"/>
+            <div className="w-full md:w-2/3">
+                <h2 className="text-6xl text-white font-barlow font-semibold pb-8">General Assembly</h2>
+                <p className="text-white">
+                    helllloopopppppppppppppp
+                </p>
+                <div className="flex">
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+                </div>
+              </div>
           </div>
-          <div>
-            <h1> General Assembly </h1>
-            <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className="md:w-1/6"/>
-              <li> 2023-2024 </li>
-              <li> Education Inudstry</li>
-              <li> Fellow </li>
+          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0   md:space-x-4 p-6 rounded-lg shadow-md">
+              <img src="src/assets/img/logo1-for-ivan_copy-removebg-preview.png" alt="BMM" className=" ml-24 md:w-1/6"/>
+            <div className="w-full md:w-2/3">
+                <h2 className="text-6xl text-white font-anta pb-8">Baja Mobile Mechanic</h2>
+                <p className="text-white">
+                    helllloopopppppppppppppp
+                </p>
+                <div className="flex">
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+                </div>
+              </div>
           </div>
-          <div>
-            <h1> Baja Mobile Mechanic </h1>
-            <img  src="src/assets/img/logo1-for-ivan_copy-removebg-preview.png" alt="BMM" className="md:w-1/5"/>
-              <li> 2024 </li>
-              <li> Automative Inudstry</li>
-              <li> Web Developer </li>
-          </div>
-        </div>
     </>
   )
 }
-
 export default About

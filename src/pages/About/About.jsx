@@ -19,11 +19,11 @@ const About = () => {
                 <p className="text-white">
                     Completed a three-month software engineering program emphasizing practical skills and industry-relevant technologies. Developed proficiency in JavaScript, Node.js, Express.js, Django, React, SQL, and Python through hands-on projects. Gained foundational knowledge in software development methodologies, problem-solving, and teamwork.
                 </p>
-                <div className="flex">
+                {/* <div className="flex">
                   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
                   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
                   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
-                </div>
+                </div> */}
               </div>
           </div>
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 p-6 rounded-lg shadow-md">
@@ -33,11 +33,11 @@ const About = () => {
                 <p className="text-white">
                     Developed a customer-facing website for Baja Mobile Mechanic to enhance online presence and streamline service requests, including an intuitive form for service requests and an 'About' page highlighting company services, history, and values. Utilized a React + Vite frontend with a MEN stack backend for efficient and scalable development.
                 </p>
-                <div className="flex">
+                {/* <div className="flex">
                   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
                   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
                   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
-                </div>
+                </div> */}
               </div>
           </div>
     </>

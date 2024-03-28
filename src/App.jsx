@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar'
 import AboutMePage from './components/AboutMe/AboutMe'
 import ProjectsPage from './components/ProjectsPage/ProjectsPage'
 import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
+import ContactInfo from './components/ContactInfo/ContactInfo';
 import './App.css'
 
 const AppWrapper = () => {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<HomeScreen />} />
         <Route path="/about-me" element={<AboutMePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact-me" element={<ContactInfo />} />
       </Routes>
     </>
   );

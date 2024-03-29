@@ -12,6 +12,7 @@ const About = () => {
           </h1>
       {/* <img src="src/assets/img/IMG_3384 2.jpg" alt="Kevin Velazquez" className="rounded-full     w-96 h-96 object-cover object-center ml-36 scale-100" /> */} 
         </div>
+        <h1 className="relative z-10 text-4xl text-white text-center font-bold"> Tech Experience </h1>
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0   md:space-x-4 p-6 rounded-lg shadow-md">
               <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className="ml-24 md:w-1/12"/>
             <div className="w-full md:w-2/3">

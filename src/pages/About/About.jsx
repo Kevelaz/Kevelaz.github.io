@@ -12,27 +12,36 @@ const About = () => {
           </h1>
       {/* <img src="src/assets/img/IMG_3384 2.jpg" alt="Kevin Velazquez" className="rounded-full     w-96 h-96 object-cover object-center ml-36 scale-100" /> */} 
         </div>
-        <div className="relative z-10 text-slate-100 text-2xl ml-32 mt-20">
-            <h1> Don Jon Marine Co.</h1>
-            <img src="src/assets/img/don-jon-logo-removebg-preview.png" alt="don jon" className="md:w-1/6 "/>
-              <li> 2018-2023 </li>
-              <li> Recycling Industry </li>
-              <li> Machine Operator </li>
-
-            <h1> General Assembly </h1>
-            <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className="md:w-1/6"/>
-              <li> 2023-2024 </li>
-              <li> Education Inudstry</li>
-              <li> Fellow </li>
-            
-            <h1> Baja Mobile Mechanic </h1>
-            <img  src="src/assets/img/new logo.png" alt="BMM" className="md:w-1/4"/>
-              <li> 2024 </li>
-              <li> Automative Inudstry</li>
-              <li> Web Developer </li>
-        </div>
+        <h1 className="relative z-10 text-4xl text-white text-center font-bold"> Tech Experience </h1>
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0   md:space-x-4 p-6 rounded-lg shadow-md">
+              <img src="src/assets/img/general-assembly-logo-D5C634F07A-seeklogo.com.png" alt="GA" className="ml-24 md:w-1/12"/>
+            <div className="w-full md:w-2/3">
+                <h2 className="text-3xl text-white font-barlow font-semibold pb-8">General Assembly</h2>
+                <p className="text-white">
+                    Completed a three-month software engineering program emphasizing practical skills and industry-relevant technologies. Developed proficiency in JavaScript, Node.js, Express.js, Django, React, SQL, and Python through hands-on projects. Gained foundational knowledge in software development methodologies, problem-solving, and teamwork.
+                </p>
+                {/* <div className="flex">
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+                </div> */}
+              </div>
+          </div>
+          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 p-6 rounded-lg shadow-md">
+              <img src="src/assets/img/logo1-for-ivan_copy-removebg-preview.png" alt="BMM" className=" ml-24 md:w-1/12"/>
+            <div className="w-full md:w-2/3">
+                <h2 className="text-2xl text-white font-anta pb-8">Baja Mobile Mechanic</h2>
+                <p className="text-white">
+                    Developed a customer-facing website for Baja Mobile Mechanic to enhance online presence and streamline service requests, including an intuitive form for service requests and an 'About' page highlighting company services, history, and values. Utilized a React + Vite frontend with a MEN stack backend for efficient and scalable development.
+                </p>
+                {/* <div className="flex">
+                  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+                </div> */}
+              </div>
+          </div>
     </>
   )
 }
-
 export default About

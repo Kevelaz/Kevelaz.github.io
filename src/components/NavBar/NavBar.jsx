@@ -2,10 +2,10 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', current: false },
+  // { name: 'Home', href: '/', current: false },
   { name: 'About Me', href: 'about-me', current: false },
   { name: 'Projects', href: 'projects', current: false },
-  // { name: 'Contact Info', href: '#', current: false },
+  { name: 'Contact Me', href: 'contact-me', current: false },
 ]
 
 function classNames(...classes) {
@@ -33,11 +33,13 @@ const NavBar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
+                  <a href="/">
                   <img
-                    className="h-10 w-auto"
+                    className="h-12 w-auto"
                     src="src/assets/img/logo-for-port.png"
-                    alt="Your Company"
-                  />
+                    alt="Your logo"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

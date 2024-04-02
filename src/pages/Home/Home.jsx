@@ -35,7 +35,7 @@ const Home = () => {
                 <a href="https://www.linkedin.com/in/kevin-medina-velazquez/" target="_blank" rel="noopener noreferrer">
                 <img src="src/assets/img/linkedin_icon-icons.com_65929.png" alt="github badge" style={{width: '53px', height: '53px'}} />
                 </a>
-                <button onClick={goToAboutMePage} className="ml-auto bg-blue-500 text-white animate-pulse rounded-full w-32 h-">
+                <button onClick={goToAboutMePage} className="ml-auto text-white animate-pulse rounded-full w-32 h-">
               Enter
               </button>
             </div>

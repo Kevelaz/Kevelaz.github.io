@@ -32,14 +32,15 @@ const Contact = () => {
     });
     // You could also set a confirmation message here
   };
-
-  return (
-    <div className="container mx-auto p-4 relative z-10">
+return (
+  <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="container p-4 relative z-10 max-w-2xl mx-auto">
       <div className="mb-8">
         <h1 className="text-2xl text-slate-300 text-center mb-4">Contact Information</h1>
-        <p className="text-center">Phone Number: Your Phone Number Here</p>
-        <p className="text-center">Email: your.email@example.com</p>
-        <p className="text-center">Links: [LinkedIn/GitHub/Other]</p>
+        <p className="text-center">Phone Number: 929-314-7438</p>
+        <p className="text-center">Email: kevin.velazquez1099@gmail.com</p>
+        {/* Uncomment and add links here if needed */}
+        {/* <p className="text-center">Links: [LinkedIn/GitHub/Other]</p> */}
       </div>
       <div>
         <h1 className="text-2xl text-slate-300 text-center mb-4">Input Your Info</h1>
@@ -50,7 +51,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             placeholder="Your Name"
-            className="block w-full p-2"
+            className="block w-full p-2 mx-auto rounded"
           />
           <input
             type="email"
@@ -58,7 +59,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Your Email"
-            className="block w-full p-2"
+            className="block w-full p-2 mx-auto rounded"
           />
           <input
             type="text"
@@ -66,14 +67,14 @@ const Contact = () => {
             value={formData.subject}
             onChange={handleChange}
             placeholder="Subject"
-            className="block w-full p-2"
+            className="block w-full p-2 mx-auto rounded"
           />
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             placeholder="Your Message"
-            className="block w-full p-2"
+            className="block w-full p-2 mx-auto rounded"
             rows="4"
           ></textarea>
           <button type="submit" className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300">
@@ -82,7 +83,8 @@ const Contact = () => {
         </form>
       </div>
     </div>
-  );
+  </div>
+);
 }
 
 export default Contact

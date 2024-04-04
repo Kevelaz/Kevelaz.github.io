@@ -5,7 +5,6 @@ import AboutMePage from './components/AboutMe/AboutMe'
 import ProjectsPage from './components/ProjectsPage/ProjectsPage'
 import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
 import ContactInfo from './components/ContactInfo/ContactInfo';
-import './App.css'
 
 const AppWrapper = () => {
   return (

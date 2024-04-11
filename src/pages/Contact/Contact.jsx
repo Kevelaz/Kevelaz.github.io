@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { useForm } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 const Contact = () => {
   // const formId = process.env.FORM_ENDPOINT;
@@ -45,9 +45,7 @@ const Contact = () => {
     <div className="relative z-10 flex items-center justify-center min-h-screen">
       <div className="container p-4 relative z-10 max-w-2xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-2xl text-slate-300 text-center mb-4">Contact Information</h1>
-          <p className="text-center">Phone Number: 929-314-7438</p>
-          <p className="text-center">Email: kevin.velazquez1099@gmail.com</p>
+          <h1 className="text-2xl text-slate-300 text-center mb-4">Contact Me!</h1>
         </div>
         <div>
           <h1 className="text-2xl text-slate-300 text-center mb-4">Input Your Info</h1>

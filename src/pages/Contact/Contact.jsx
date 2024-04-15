@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useForm } from '@formspree/react';
+import axios  from 'axios';
 
 const Contact = () => {
   // const formId = process.env.FORM_ENDPOINT;
@@ -22,23 +22,24 @@ const Contact = () => {
     }));
   };
 
-  // if (state.succeeded) {
-  //   return <p>Thanks for contacting us!</p>;
-  // }
-
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically handle form submission, like sending an email
-    console.log(formData);
-    // Reset form after submission
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
-    // You could also set a confirmation message here
+    try {
+      const response = await axios.post('http://localhost:3000/contact', formData);
+      console.log('Form submitted successfully:', response.data);
+      alert('Thanks for contacting us!'); // Display a success message or handle as per your requirement
+      // Reset form after successful submission
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Failed to send your message. Please try again.'); // Display an error message or handle differently
+    }
   };
 
   return (

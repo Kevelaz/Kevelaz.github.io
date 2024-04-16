@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import axios  from 'axios';
 
 const Contact = () => {
-  // const formId = process.env.FORM_ENDPOINT;
-  // const [state, handleSubmit] = useForm(formId);
 
   // State for form fields
   const [formData, setFormData] = useState({

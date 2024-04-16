@@ -10,6 +10,7 @@ const About = () => {
         <h1 id="intro-para-2">
           As a junior developer, I am on a continual journey of learning and personal growth, engaging with each project with a fresh perspective and an eager mind. My tenure in the technology domain began with a significant milestone—developing a website for Baja Mobile Mechanic. This project not only marked my initial foray into the tech industry but also served as a practical application of the skills I honed during an intensive 3-month software engineering program at General Assembly. Each step of this journey has been a testament to my commitment to excellence and an enduring quest for knowledge.
         </h1>
+        <img src="src/assets/img/IMG_3384 2.jpg" className="rounded-full w-96 h-96 object-cover ml-36 justify-end" />
       </div>
       <h1 className="relative z-10 text-4xl text-white text-center font-bold">Tech Experience</h1>
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 p-6 rounded-lg shadow-md">

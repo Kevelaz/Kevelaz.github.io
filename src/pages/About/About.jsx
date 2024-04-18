@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="relative z-10 text-xl text-white text-center mr-80 ml-80">
-        <h1 className="pb-8" id="intro-para-1">
+      <div className="relative z-10 text-xl flex text-white text-left mr-80 ml-80">
+        <h1 className="pb-8 " id="intro-para-1">
           My name is Kevin Medina Velazquez, and I am a burgeoning software developer with roots deeply embedded in a first-generation Mexican-American heritage. This background has imbued me with a profound appreciation for the principles that hard work fosters superior outcomes and the importance of extending equal respect to all individuals.
         </h1>
         <h1 id="intro-para-2">

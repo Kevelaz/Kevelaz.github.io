@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios  from 'axios';
 
+
+
 const Contact = () => {
 
   // State for form fields
@@ -19,12 +21,13 @@ const Contact = () => {
       [name]: value,
     }));
   };
-
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const backendUrl = import.meta.env.VITE_BACKEND_SERVER || 'http://localhost:3000';
+
     try {
-      const response = await axios.post('http://localhost:3000/contact', formData);
+      const response = await axios.post(`${backendUrl}/contact`, formData);
       console.log('Form submitted successfully:', response.data);
       alert('Thanks for contacting us!'); // Display a success message or handle as per your requirement
       // Reset form after successful submission
